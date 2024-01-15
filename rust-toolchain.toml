@@ -1,0 +1,10 @@
+[toolchain]
+
+# For ESP32-C3 use:
+#channel = "nightly"
+#components = ["rust-src"]
+
+# For ESP32 use:
+channel = "esp"
+
+# EOF

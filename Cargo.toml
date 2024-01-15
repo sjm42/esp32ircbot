@@ -1,0 +1,48 @@
+[package]
+name = "esp32ircbot"
+version = "0.0.1"
+authors = ["Sami J. Mäkinen <sjm@iki.fi>"]
+edition = "2021"
+
+[profile.release]
+strip = true
+opt-level = 3
+codegen-units = 1
+debug = false
+lto = true
+
+[profile.dev]
+debug = false
+opt-level = 3
+
+[patch.crates-io]
+tokio = { git = "https://github.com/tokio-rs/tokio", branch = "master" }
+mio = { git = "https://github.com/tokio-rs/mio", branch = "master" }
+socket2 = { git = "https://github.com/rust-lang/socket2", branch = "master" }
+
+[dependencies]
+panic-halt = "0"
+anyhow = "*"
+axum = { version = "0", features = ["http1", "json"] }
+embedded-svc = { version = "*", features = ["experimental"] }
+embedded-hal = "*"
+esp-idf-sys = { version = "*", features = ["binstart"] }
+esp-idf-svc = { version = "*", features = ["experimental"] }
+esp-idf-hal = "*"
+futures = "*"
+irc = { git = "https://github.com/aatxe/irc.git", default-features = false, features = [
+] }
+log = "*"
+mio = { version = "*", features = ["log"] }
+serde = "1"
+tokio = { version = "1", features = ["rt", "net", "io-util"] }
+tower-http = { version = "0" }
+# tower-http = { version = "0", features = ["trace"] }
+# tracing = "0.1"
+# tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+
+[build-dependencies]
+build-data = "0"
+embuild = "*"
+anyhow = "*"
