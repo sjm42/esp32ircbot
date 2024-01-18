@@ -1777,9 +1777,9 @@ dependencies = [
 
 [[package]]
 name = "smallvec"
-version = "1.12.0"
+version = "1.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2593d31f82ead8df961d8bd23a64c2ccf2eb5dd34b0a34bfb4dd54011c72009e"
+checksum = "3b187f0231d56fe41bfb12034819dd2bf336422a5866de41bc3fec4b2e3883e8"
 
 [[package]]
 name = "socket2"
@@ -1913,7 +1913,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.35.1"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#58edfc61abe4acdc2dda485c1d66715790b9315c"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#f80bbec28ff790d15481a29583c9b778bf0cc40e"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1928,7 +1928,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#58edfc61abe4acdc2dda485c1d66715790b9315c"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#f80bbec28ff790d15481a29583c9b778bf0cc40e"
 dependencies = [
  "proc-macro2",
  "quote",
