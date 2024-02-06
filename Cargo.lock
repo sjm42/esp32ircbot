@@ -1859,13 +1859,12 @@ checksum = "2047c6ded9c721764247e62cd3b03c09ffc529b2ba5b10ec482ae507a4a70160"
 
 [[package]]
 name = "tempfile"
-version = "3.9.0"
+version = "3.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "01ce4141aa927a6d1bd34a041795abd0db1cccba5d5f24b009f694bdf3a1f3fa"
+checksum = "a365e8cd18e44762ef95d87f284f4b5cd04107fec2ff3052bd6a3e6069669e67"
 dependencies = [
  "cfg-if",
  "fastrand",
- "redox_syscall",
  "rustix",
  "windows-sys 0.52.0",
 ]
@@ -1893,7 +1892,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.36.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#fbdf539ac22563c6b8e3fb3f1844055baba12470"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#10c9eeb6c2af85961044b7cbb16a5a2d2e97287d"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1908,7 +1907,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#fbdf539ac22563c6b8e3fb3f1844055baba12470"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#10c9eeb6c2af85961044b7cbb16a5a2d2e97287d"
 dependencies = [
  "proc-macro2",
  "quote",
