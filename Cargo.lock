@@ -1892,7 +1892,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.36.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#10c9eeb6c2af85961044b7cbb16a5a2d2e97287d"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#0fbde0e94b06536917b6686e996856a33aeb29ee"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1907,7 +1907,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#10c9eeb6c2af85961044b7cbb16a5a2d2e97287d"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#0fbde0e94b06536917b6686e996856a33aeb29ee"
 dependencies = [
  "proc-macro2",
  "quote",
