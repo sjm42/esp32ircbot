@@ -466,9 +466,9 @@ dependencies = [
 
 [[package]]
 name = "either"
-version = "1.9.0"
+version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07"
+checksum = "11157ac094ffbdde99aa67b23417ebdd801842852b500e395a45a9c0aac03e4a"
 
 [[package]]
 name = "embassy-futures"
@@ -1892,7 +1892,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.36.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#0fbde0e94b06536917b6686e996856a33aeb29ee"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#e392c4ff1effb7b35459a0d915831aaf41184d78"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1907,7 +1907,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#0fbde0e94b06536917b6686e996856a33aeb29ee"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#e392c4ff1effb7b35459a0d915831aaf41184d78"
 dependencies = [
  "proc-macro2",
  "quote",
