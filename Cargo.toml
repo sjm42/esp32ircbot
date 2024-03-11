@@ -1,19 +1,9 @@
 [package]
 name = "esp32ircbot"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Sami J. Mäkinen <sjm@iki.fi>"]
 edition = "2021"
 
-[profile.release]
-strip = true
-opt-level = 3
-codegen-units = 1
-debug = false
-lto = true
-
-[profile.dev]
-debug = false
-opt-level = 3
 
 [patch.crates-io]
 tokio = { git = "https://github.com/tokio-rs/tokio", branch = "master" }
@@ -46,3 +36,16 @@ tower-http = { version = "0" }
 build-data = "0"
 embuild = "*"
 anyhow = "*"
+
+
+[profile.release]
+strip = true
+opt-level = 3
+codegen-units = 1
+debug = false
+lto = "fat"
+
+
+[profile.dev]
+debug = false
+opt-level = 3
