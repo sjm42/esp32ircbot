@@ -1547,9 +1547,9 @@ dependencies = [
 
 [[package]]
 name = "regex-syntax"
-version = "0.8.2"
+version = "0.8.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
+checksum = "adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56"
 
 [[package]]
 name = "remove_dir_all"
@@ -1883,7 +1883,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.36.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#deff2524c354d3d3038e1c3813032701946a5c68"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#e5425014392de0a44c27fac054472b4c3926ef26"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1898,7 +1898,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#deff2524c354d3d3038e1c3813032701946a5c68"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#e5425014392de0a44c27fac054472b4c3926ef26"
 dependencies = [
  "proc-macro2",
  "quote",
