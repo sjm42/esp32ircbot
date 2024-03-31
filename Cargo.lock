@@ -1281,7 +1281,7 @@ dependencies = [
 [[package]]
 name = "mio"
 version = "1.0.0"
-source = "git+https://github.com/tokio-rs/mio?branch=master#8a1bfe148bdb709f7f0e43e0848dfa78c2561bea"
+source = "git+https://github.com/tokio-rs/mio?branch=master#176a9f1ed228904d801e0e52caeeecd2fff82f34"
 dependencies = [
  "hermit-abi",
  "libc",
