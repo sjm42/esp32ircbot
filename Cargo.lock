@@ -278,9 +278,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.90"
+version = "1.0.91"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8cd6604a82acf3039f1144f54b8eb34e91ffba622051189e71b781822d5ee1f5"
+checksum = "1fd97381a8cc6493395a5afc4c691c1084b3768db713b73aa215217aa245d153"
 
 [[package]]
 name = "cexpr"
@@ -1883,7 +1883,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.37.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#431b7c52636850820dd1f2b45e02c06cf366cb1c"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#5712aaf995b244226aff78ed4a13bf6c9105f3ab"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1898,7 +1898,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#431b7c52636850820dd1f2b45e02c06cf366cb1c"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#5712aaf995b244226aff78ed4a13bf6c9105f3ab"
 dependencies = [
  "proc-macro2",
  "quote",
