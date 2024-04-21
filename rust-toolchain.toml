@@ -2,7 +2,7 @@
 
 # For ESP32-C3 use:
 #channel = "nightly"
-channel = "nightly-2024-02-01"
+channel = "nightly-2024-04-20"
 components = ["rust-src"]
 
 # For ESP32 use:
