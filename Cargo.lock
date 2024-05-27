@@ -310,9 +310,9 @@ dependencies = [
 
 [[package]]
 name = "clang-sys"
-version = "1.7.0"
+version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "67523a3b4be3ce1989d607a828d036249522dd9c1c8de7f4dd2dae43a37369d1"
+checksum = "a483f3cbf7cec2e153d424d0e92329d816becc6421389bd494375c6065921b9b"
 dependencies = [
  "glob",
  "libc",
@@ -1279,7 +1279,7 @@ dependencies = [
 [[package]]
 name = "mio"
 version = "1.0.0"
-source = "git+https://github.com/tokio-rs/mio?branch=master#309daae21ecb1d46203a7dbc0cf4c80310240cba"
+source = "git+https://github.com/tokio-rs/mio?branch=master#cf5219446de5190752372f5401c51987248406f5"
 dependencies = [
  "hermit-abi",
  "libc",
@@ -1759,7 +1759,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "socket2"
 version = "0.5.7"
-source = "git+https://github.com/rust-lang/socket2?branch=master#127a4c919d5beba876ce2b13a2ba1dda94486b55"
+source = "git+https://github.com/rust-lang/socket2?branch=master#6a13053e528fe1bbbfff85461589bafc7425f7b0"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
@@ -1884,7 +1884,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.37.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#2890d0c3db4f595330d8d223bfbfeb81e205b048"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#6c42d286b343f498ce29de2aab9358a0aedb081c"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1899,7 +1899,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#2890d0c3db4f595330d8d223bfbfeb81e205b048"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#6c42d286b343f498ce29de2aab9358a0aedb081c"
 dependencies = [
  "proc-macro2",
  "quote",
