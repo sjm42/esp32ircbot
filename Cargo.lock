@@ -310,9 +310,9 @@ dependencies = [
 
 [[package]]
 name = "clang-sys"
-version = "1.8.2"
+version = "1.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f803f94ecf597339c7a34eed2036ef83f86aaba937f001f7c5b5e251f043f1f9"
+checksum = "0b023947811758c97c59bf9d1c188fd619ad4718dcaa767947df1cadb14f39f4"
 dependencies = [
  "glob",
  "libc",
@@ -1883,8 +1883,8 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.37.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#86658bd87dc470f8e36eb6b893cc403820cfb7ee"
+version = "1.38.0"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#14c17fc09656a30230177b600bacceb9db33e942"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1898,8 +1898,8 @@ dependencies = [
 
 [[package]]
 name = "tokio-macros"
-version = "2.2.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#86658bd87dc470f8e36eb6b893cc403820cfb7ee"
+version = "2.3.0"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#14c17fc09656a30230177b600bacceb9db33e942"
 dependencies = [
  "proc-macro2",
  "quote",
