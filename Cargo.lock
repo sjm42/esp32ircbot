@@ -1279,7 +1279,7 @@ dependencies = [
 [[package]]
 name = "mio"
 version = "1.0.0"
-source = "git+https://github.com/tokio-rs/mio?branch=master#ca2dd176316250929ec8102be9efc912986b74a5"
+source = "git+https://github.com/tokio-rs/mio?branch=master#1a738f9d751eabf4c136e782a423ce4ef2661c81"
 dependencies = [
  "hermit-abi",
  "libc",
@@ -1411,7 +1411,7 @@ checksum = "1e401f977ab385c9e4e3ab30627d6f26d00e2c73eef317493c4ec6d468726cf8"
 dependencies = [
  "cfg-if",
  "libc",
- "redox_syscall 0.5.1",
+ "redox_syscall 0.5.2",
  "smallvec",
  "windows-targets 0.52.5",
 ]
@@ -1522,9 +1522,9 @@ dependencies = [
 
 [[package]]
 name = "redox_syscall"
-version = "0.5.1"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "469052894dcb553421e483e4209ee581a45100d31b4018de03e5a7ad86374a7e"
+checksum = "c82cf8cff14456045f55ec4241383baeff27af886adb72ffb2162f99911de0fd"
 dependencies = [
  "bitflags 2.5.0",
 ]
@@ -1884,7 +1884,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.38.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#53ea44bfb9400ea6dbba52413c28a41284f290e9"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#8480a180e6ffdd0ec0ec213a9bebcda2445fc541"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1899,7 +1899,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.3.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#53ea44bfb9400ea6dbba52413c28a41284f290e9"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#8480a180e6ffdd0ec0ec213a9bebcda2445fc541"
 dependencies = [
  "proc-macro2",
  "quote",
