@@ -1759,7 +1759,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "socket2"
 version = "0.5.7"
-source = "git+https://github.com/rust-lang/socket2?branch=master#6a13053e528fe1bbbfff85461589bafc7425f7b0"
+source = "git+https://github.com/rust-lang/socket2?branch=master#7fe1bff392a23a84635dfaa314820e868930ad8f"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
