@@ -1184,9 +1184,9 @@ dependencies = [
 
 [[package]]
 name = "lazy_static"
-version = "1.4.0"
+version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
+checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 
 [[package]]
 name = "lazycell"
@@ -1279,7 +1279,7 @@ dependencies = [
 [[package]]
 name = "mio"
 version = "1.0.0"
-source = "git+https://github.com/tokio-rs/mio?branch=master#1a738f9d751eabf4c136e782a423ce4ef2661c81"
+source = "git+https://github.com/tokio-rs/mio?branch=master#6c710f1990f5f1aff00c7095238868604580ea61"
 dependencies = [
  "hermit-abi",
  "libc",
@@ -1884,7 +1884,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.38.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#9a75d6f7f70fd81f589a8209c548944bc3d05f84"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ed4ddf443d93c3e14ae23699a5a2f81902ad1e66"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1899,7 +1899,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.3.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#9a75d6f7f70fd81f589a8209c548944bc3d05f84"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ed4ddf443d93c3e14ae23699a5a2f81902ad1e66"
 dependencies = [
  "proc-macro2",
  "quote",
