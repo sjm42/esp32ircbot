@@ -73,7 +73,7 @@ checksum = "c6fa2087f2753a7da8cc1c0dbfcf89579dd57458e36769de5ac750b4671737ca"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -160,23 +160,24 @@ dependencies = [
 
 [[package]]
 name = "bindgen"
-version = "0.63.0"
+version = "0.69.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "36d860121800b2a9a94f9b5604b332d5cffb234ce17609ea479d723dbc9d3885"
+checksum = "a00dc851838a2120612785d195287475a3ac45514741da670b735818822129a0"
 dependencies = [
- "bitflags 1.3.2",
+ "bitflags 2.5.0",
  "cexpr",
  "clang-sys",
+ "itertools",
  "lazy_static",
  "lazycell",
  "log",
- "peeking_take_while",
+ "prettyplease",
  "proc-macro2",
  "quote",
  "regex",
  "rustc-hash",
  "shlex",
- "syn 1.0.109",
+ "syn 2.0.68",
  "which",
 ]
 
@@ -222,7 +223,7 @@ dependencies = [
  "once_cell",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -277,9 +278,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.99"
+version = "1.0.100"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96c51067fd44124faa7f870b4b1c969379ad32b2ba805aa959430ceaa384f695"
+checksum = "c891175c3fb232128f48de6590095e59198bbeb8620c310be349bfc3afd12c7b"
 
 [[package]]
 name = "cexpr"
@@ -414,7 +415,7 @@ dependencies = [
  "ident_case",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -425,7 +426,7 @@ checksum = "733cabb43482b1a1b53eee8583c2b9e8684d592215ea83efd305dd31bc2f0178"
 dependencies = [
  "darling_core",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -448,7 +449,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -474,9 +475,9 @@ checksum = "1f878075b9794c1e4ac788c95b728f26aa6366d32eeb10c7051389f898f7d067"
 
 [[package]]
 name = "embassy-sync"
-version = "0.5.0"
+version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd938f25c0798db4280fcd8026bf4c2f48789aebf8f77b6e5cf8a7693ba114ec"
+checksum = "b3e0c49ff02ebe324faf3a8653ba91582e2d0a7fdef5bc88f449d5aa1bfcc05c"
 dependencies = [
  "cfg-if",
  "critical-section",
@@ -546,9 +547,9 @@ dependencies = [
 
 [[package]]
 name = "embedded-svc"
-version = "0.27.1"
+version = "0.28.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac6f87e7654f28018340aa55f933803017aefabaa5417820a3b2f808033c7bbc"
+checksum = "7b85590a7a120e370bed5b6bc2b399b345c60d4c749d3bc06039472da37b9893"
 dependencies = [
  "defmt",
  "embedded-io",
@@ -556,7 +557,6 @@ dependencies = [
  "enumset",
  "heapless",
  "log",
- "no-std-net",
  "num_enum",
  "serde",
  "strum 0.25.0",
@@ -565,9 +565,9 @@ dependencies = [
 
 [[package]]
 name = "embuild"
-version = "0.31.4"
+version = "0.32.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4caa4f198bb9152a55c0103efb83fa4edfcbb8625f4c9e94ae8ec8e23827c563"
+checksum = "a6e3e470e31fd4cae065d37f7cad56d42861ba1f9a35aa277694dee3d6b357c4"
 dependencies = [
  "anyhow",
  "bindgen",
@@ -577,6 +577,7 @@ dependencies = [
  "globwalk",
  "home",
  "log",
+ "regex",
  "remove_dir_all",
  "serde",
  "serde_json",
@@ -670,7 +671,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -700,9 +701,9 @@ dependencies = [
 
 [[package]]
 name = "esp-idf-hal"
-version = "0.43.1"
+version = "0.44.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f7adf3fb19a9ca016cbea1ab8a7b852ac69df8fcde4923c23d3b155efbc42a74"
+checksum = "0e4ff91cde17d9c1cd365722cf97c6b835638beebc2bb6237209444fd620b4ba"
 dependencies = [
  "atomic-waker",
  "embassy-sync",
@@ -724,9 +725,9 @@ dependencies = [
 
 [[package]]
 name = "esp-idf-svc"
-version = "0.48.1"
+version = "0.49.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2180642ca122a7fec1ec417a9b1a77aa66aaa067fdf1daae683dd8caba84f26b"
+checksum = "1ba720352001f2df70e19eca99f9d1a7b7fd1003dd639938540a5fb4a70c2e8e"
 dependencies = [
  "embassy-futures",
  "embedded-hal-async",
@@ -742,9 +743,9 @@ dependencies = [
 
 [[package]]
 name = "esp-idf-sys"
-version = "0.34.1"
+version = "0.35.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2e148f97c04ed3e9181a08bcdc9560a515aad939b0ba7f50a0022e294665e0af"
+checksum = "bb97e3800686a4d64f3c0a9998be3d6f16c903bca2a425746e97f00ed28cde5e"
 dependencies = [
  "anyhow",
  "bindgen",
@@ -886,7 +887,7 @@ checksum = "87750cf4b7a4c0625b1529e4c543c2182106e4dedc60a2a6455e00d212c489ac"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1168,6 +1169,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba291022dbbd398a455acf126c1e341954079855bc60dfdda641363bd6922569"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1202,9 +1212,9 @@ checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
 
 [[package]]
 name = "libloading"
-version = "0.8.3"
+version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c2a198fb6b0eada2a8df47933734e6d35d350665a33a3593d7164fa52c75c19"
+checksum = "e310b3a6b5907f99202fcdb4960ff45b93735d7c7d96b760fcff8db2dc0e103d"
 dependencies = [
  "cfg-if",
  "windows-targets 0.52.5",
@@ -1315,15 +1325,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "no-std-net"
-version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1bcece43b12349917e096cddfa66107277f123e6c96a5aea78711dc601a47152"
-dependencies = [
- "serde",
-]
-
-[[package]]
 name = "nom"
 version = "7.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1369,7 +1370,7 @@ dependencies = [
  "proc-macro-crate",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1417,12 +1418,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "peeking_take_while"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19b17cddbe7ec3f8bc800887bab5e717348c95ea2ca0b1bf0837fb964dc67099"
-
-[[package]]
 name = "percent-encoding"
 version = "2.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1445,7 +1440,7 @@ checksum = "2f38a4412a78282e09a2cf38d195ea5420d15ba0602cb375210efbc877243965"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1459,6 +1454,16 @@ name = "pin-utils"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
+
+[[package]]
+name = "prettyplease"
+version = "0.2.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5f12335488a2f3b0a83b14edad48dca9879ce89b2edd10e80237e4e852dd645e"
+dependencies = [
+ "proc-macro2",
+ "syn 2.0.68",
+]
 
 [[package]]
 name = "proc-macro-crate"
@@ -1699,7 +1704,7 @@ checksum = "500cbc0ebeb6f46627f50f3f5811ccf6bf00643be300b4c3eabc0ef55dc5b5ba"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1812,7 +1817,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustversion",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1828,9 +1833,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.67"
+version = "2.0.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ff8655ed1d86f3af4ee3fd3263786bc14245ad17c4c7e85ba7187fb3ae028c90"
+checksum = "901fa70d88b9d6c98022e23b4136f9f3e54e4662c3bc1bd1d84a42a9a0f0c1e9"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1878,7 +1883,7 @@ checksum = "46c3384250002a6d5af4d114f2845d37b57521033f30d5c3f46c4d70e1197533"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -1903,7 +1908,7 @@ source = "git+https://github.com/tokio-rs/tokio?branch=master#06582776a564c88a7b
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
 ]
 
 [[package]]
@@ -2081,7 +2086,7 @@ dependencies = [
  "once_cell",
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
  "wasm-bindgen-shared",
 ]
 
@@ -2103,7 +2108,7 @@ checksum = "e94f17b526d0a461a191c78ea52bbce64071ed5c04c9ffe424dcb38f74171bb7"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.67",
+ "syn 2.0.68",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
