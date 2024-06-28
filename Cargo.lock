@@ -1238,9 +1238,9 @@ dependencies = [
 
 [[package]]
 name = "log"
-version = "0.4.21"
+version = "0.4.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90ed8c1e510134f979dbc4f070f87d4313098b704861a105fe34231c70a3901c"
+checksum = "a7a70ba024b9dc04c27ea2f0c0548feb474ec5c54bba33a7f72f873a39d07b24"
 
 [[package]]
 name = "matchit"
@@ -1764,7 +1764,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "socket2"
 version = "0.5.7"
-source = "git+https://github.com/rust-lang/socket2?branch=master#7fe1bff392a23a84635dfaa314820e868930ad8f"
+source = "git+https://github.com/rust-lang/socket2?branch=master#8c97337aadb726f7b6f3a1a3f90e969abb3a9732"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
@@ -1889,7 +1889,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.38.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#06582776a564c88a7b4c6f9e3d7c0ebd0ef3f34b"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#65d0e08d39f06eba88661d3d6de665b14588f30d"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1904,7 +1904,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.3.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#06582776a564c88a7b4c6f9e3d7c0ebd0ef3f34b"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#65d0e08d39f06eba88661d3d6de665b14588f30d"
 dependencies = [
  "proc-macro2",
  "quote",
