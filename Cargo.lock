@@ -1764,7 +1764,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "socket2"
 version = "0.5.7"
-source = "git+https://github.com/rust-lang/socket2?branch=master#8c97337aadb726f7b6f3a1a3f90e969abb3a9732"
+source = "git+https://github.com/rust-lang/socket2?branch=master#3a938932829ea6ee3025d2d7a86c7b095c76e6c3"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
@@ -1889,7 +1889,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.38.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#dff4ecd0e7102b0d72b76c191e1dd0a73b2d3a0e"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#c8f3539bc11e57843745c68ee60ca5276248f9f9"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1904,7 +1904,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.3.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#dff4ecd0e7102b0d72b76c191e1dd0a73b2d3a0e"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#c8f3539bc11e57843745c68ee60ca5276248f9f9"
 dependencies = [
  "proc-macro2",
  "quote",
