@@ -777,7 +777,7 @@ dependencies = [
  "futures",
  "irc",
  "log",
- "mio 1.0.0",
+ "mio",
  "panic-halt",
  "serde",
  "tokio",
@@ -1277,19 +1277,8 @@ dependencies = [
 
 [[package]]
 name = "mio"
-version = "0.8.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a4a650543ca06a924e8b371db273b2756685faae30f8487da1b56505a8f78b0c"
-dependencies = [
- "libc",
- "wasi",
- "windows-sys 0.48.0",
-]
-
-[[package]]
-name = "mio"
-version = "1.0.0"
-source = "git+https://github.com/tokio-rs/mio?branch=master#91881b1784471167edfe5efa153a9e4ebee6e964"
+version = "1.0.1"
+source = "git+https://github.com/tokio-rs/mio?branch=master#4a5114e518b982f49ce093be6d0d2a2ab86472d1"
 dependencies = [
  "hermit-abi",
  "libc",
@@ -1375,9 +1364,9 @@ dependencies = [
 
 [[package]]
 name = "object"
-version = "0.36.1"
+version = "0.36.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "081b846d1d56ddfc18fdf1a922e4f6e07a11768ea1b92dec44e42b72712ccfce"
+checksum = "3f203fa8daa7bb185f760ae12bd8e097f63d17041dcdcaf675ac54cdf863170e"
 dependencies = [
  "memchr",
 ]
@@ -1888,23 +1877,23 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.38.1"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#b69f16aa219818bc75e7ae6a22631d4e574efd39"
+version = "1.39.1"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#f8fe0ffb23c2279708cb5dada7c88defdae60845"
 dependencies = [
  "backtrace",
  "bytes",
  "libc",
- "mio 0.8.11",
+ "mio",
  "pin-project-lite",
  "socket2",
  "tokio-macros",
- "windows-sys 0.48.0",
+ "windows-sys 0.52.0",
 ]
 
 [[package]]
 name = "tokio-macros"
-version = "2.3.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#b69f16aa219818bc75e7ae6a22631d4e574efd39"
+version = "2.4.0"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#f8fe0ffb23c2279708cb5dada7c88defdae60845"
 dependencies = [
  "proc-macro2",
  "quote",
