@@ -195,9 +195,9 @@ checksum = "b048fb63fd8b5923fc5aa7b340d8e156aec7ec02f0c78fa8a6ddc2613f6f71de"
 
 [[package]]
 name = "bstr"
-version = "1.9.2"
+version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d1bc3887947e51b03a2aa6dff41aaf64f2bd8f7369ebcb1ef49b2b54b6a0d1de"
+checksum = "40723b8fb387abc38f4f4a37c09073622e41dd12327033091ef8950659e6dc0c"
 dependencies = [
  "memchr",
  "serde",
@@ -1883,7 +1883,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.39.1"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#32970527633bb72fc4f01d02523484a9376ac26a"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ee8d4d1b0546c67198af3cd053d6b7b8b4fd26c3"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1898,7 +1898,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.4.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#32970527633bb72fc4f01d02523484a9376ac26a"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ee8d4d1b0546c67198af3cd053d6b7b8b4fd26c3"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2033,9 +2033,9 @@ checksum = "f962df74c8c05a667b5ee8bcf162993134c104e96440b663c8daa176dc772d8c"
 
 [[package]]
 name = "version_check"
-version = "0.9.4"
+version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
 
 [[package]]
 name = "void"
