@@ -1332,11 +1332,11 @@ dependencies = [
 
 [[package]]
 name = "normpath"
-version = "1.2.0"
+version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5831952a9476f2fed74b77d74182fa5ddc4d21c72ec45a333b250e3ed0272804"
+checksum = "c8911957c4b1549ac0dc74e30db9c8b0e66ddcd6d7acc33098f4c63a64a6d7ed"
 dependencies = [
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -1885,7 +1885,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.39.2"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#338e13b04baa3cf8db3feb1ba2266c0070a9efdf"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ab53bf0c4727ae63c6a3a3d772b7bd837d2f49c3"
 dependencies = [
  "backtrace",
  "bytes",
@@ -1900,7 +1900,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "2.4.0"
-source = "git+https://github.com/tokio-rs/tokio?branch=master#338e13b04baa3cf8db3feb1ba2266c0070a9efdf"
+source = "git+https://github.com/tokio-rs/tokio?branch=master#ab53bf0c4727ae63c6a3a3d772b7bd837d2f49c3"
 dependencies = [
  "proc-macro2",
  "quote",
